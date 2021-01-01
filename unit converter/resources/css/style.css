@@ -1,0 +1,143 @@
+
+
+.edit-input {
+    font-size: 2rem;
+}
+
+input:focus{
+    outline: none;
+    width: 100%;
+}
+.ourfont {
+    font-size: 2rem;
+}
+
+.max-height {
+    min-height: 100vh;
+}
+.animationB-T{
+
+  width: 100%;
+  height: 0px;
+  background-color: yellow;
+  position: relative;
+  -webkit-animation: b-t 0.2s ease-in-out 0s infinite ;
+  animation: b-t 0.2s ease-in-out 0s infinite ;
+}
+
+@-webkit-keyframes b-t {
+  from   {background-color:yellow;  height: 0px;}
+ 
+to {background-color:red;  height:240px;}
+ 
+  
+}
+
+@keyframes b-t {
+  from   {background-color:yellow;  height: 0px;}
+ 
+to {background-color:red;  height:240px;}
+ 
+  
+}
+.animationT-B{
+
+  width: 100%;
+  height: 0px;
+  background-color: yellow;
+  position: relative;
+  -webkit-animation: t-b 0.2s ease-in-out 0s infinite ;
+  animation: t-b 0.2s ease-in-out 0s infinite ;
+}
+
+@-webkit-keyframes t-b{
+  from   {background-color:yellow;  height: 0px;}
+ 
+to {background-color:red;  height:240px;}
+ 
+ 
+}
+
+@keyframes t-b{
+  from   {background-color:yellow;  height: 0px;}
+ 
+to {background-color:red;  height:240px;}
+ 
+ 
+}
+.animationL-R{
+
+  width: 0%;
+  height: 130px;
+  background-color: yellow;
+  position: relative;
+  -webkit-animation: l-r 0.2s ease-in-out 0s infinite ;
+  animation: l-r 0.2s ease-in-out 0s infinite ;
+}
+
+@-webkit-keyframes l-r{
+  from   {background-color:yellow;  width: 0%;}
+ 
+to {background-color:red;  width: 100%;}
+
+}
+
+@keyframes l-r{
+  from   {background-color:yellow;  width: 0%;}
+ 
+to {background-color:red;  width: 100%;}
+
+}
+.animationR-L{
+
+  width: 0%;
+  height: 130px;
+  background-color: yellow;
+  position: relative;
+  -webkit-animation: r-l 0.2s ease-in-out 0s infinite ;
+  animation: r-l 0.2s ease-in-out 0s infinite ;
+}
+
+@-webkit-keyframes r-l{
+  from   {background-color:yellow;  width: 0%;}
+ 
+to {background-color:red;  width: 100%;}
+ 
+}
+
+@keyframes r-l{
+  from   {background-color:yellow;  width: 0%;}
+ 
+to {background-color:red;  width: 100%;}
+ 
+}
+.row-animation{
+
+ 
+  background-color: yellow;
+  
+  -webkit-animation: rowani 0.7s ease-in-out 0s infinite ;
+  
+  animation: rowani 0.7s ease-in-out 0s infinite ;
+}
+
+@-webkit-keyframes rowani {
+  from   {background-color:yellow; }
+to {background-color:red;  }
+
+}
+
+@keyframes rowani {
+  from   {background-color:yellow; }
+to {background-color:red;  }
+
+}
+.bg-dar{
+    background: black !important;
+}
+
+@media only screen and (max-width: 776px) {
+ .ourfont {
+    font-size: 1.5rem;
+  }
+}
